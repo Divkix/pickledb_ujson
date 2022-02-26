@@ -1,5 +1,4 @@
 <p align="center">
-<i>Software to scrap proxies for my web scrapping and other testing purposes.</i></br></br>
 <a href="https://pypi.org/project/pickledb-ujson/"><img src="https://img.shields.io/pypi/v/pickledb-ujson" alt="PyPI"></a>
 <a href="https://github.com/Divkix/pickledb_ujson/actions"><img src="https://github.com/Divkix/pickledb_ujson/workflows/CI%20%28pip%29/badge.svg" alt="CI (pip)"></a>
 <a href="https://pypi.org/project/pickledb-ujson/"><img src="https://img.shields.io/pypi/pyversions/pickledb-ujson.svg" alt="Supported Python Versions"></a>
