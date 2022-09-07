@@ -52,21 +52,8 @@ jobs:
 
   # fetch some info from repo such as latest tag and name in lowercase
   get-repo-info:
-    name: Get Repo Info
     needs: update-version
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout current repo
-      uses: actions/checkout@v3
-      with:
-        fetch-depth: 0
-    - name: Get Latest Tag
-      id: get_tag
-      run: |-
-        tag="$(git tag | sort -V | tail -1)"
-        echo "::set-output name=tag::$(git tag | sort -V | tail -1)"
-    outputs:
-      tag: ${{ steps.get_tag.outputs.tag }}
+    uses: divkix/reusable-workflows/.github/workflows/get-repo-info.yml@main
 
   build-and-test:
     name: Build and Test Package
