@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pickledb_ujson"
-version = "1.0.11"
+version = "1.0.12"
 description = "Fork of PickleDB using ujson"
 authors = ["Harrison Erd <erdh@mail.broward.edu>", "Divanshu Chauhan <23524935+Divkix@users.noreply.github.com>"]
 license = "BSD-3-Clause License"
